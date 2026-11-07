@@ -1,0 +1,90 @@
+[
+ {
+  "arm": "purified",
+  "target": "Beta-catenin"
+ },
+ {
+  "arm": "purified",
+  "target": "IL23R"
+ },
+ {
+  "arm": "purified",
+  "target": "KEAP1"
+ },
+ {
+  "arm": "purified",
+  "target": "KRAS-off"
+ },
+ {
+  "arm": "purified",
+  "target": "KRAS-on"
+ },
+ {
+  "arm": "purified",
+  "target": "MCL1"
+ },
+ {
+  "arm": "purified",
+  "target": "MDM2"
+ },
+ {
+  "arm": "purified",
+  "target": "RAF"
+ },
+ {
+  "arm": "purified",
+  "target": "SOS1"
+ },
+ {
+  "arm": "purified",
+  "target": "Thrombin"
+ },
+ {
+  "arm": "purified",
+  "target": "TNFa"
+ },
+ {
+  "arm": "non-purified",
+  "target": "Beta-catenin"
+ },
+ {
+  "arm": "non-purified",
+  "target": "IL23R"
+ },
+ {
+  "arm": "non-purified",
+  "target": "KEAP1"
+ },
+ {
+  "arm": "non-purified",
+  "target": "KRAS-off"
+ },
+ {
+  "arm": "non-purified",
+  "target": "KRAS-on"
+ },
+ {
+  "arm": "non-purified",
+  "target": "MCL1"
+ },
+ {
+  "arm": "non-purified",
+  "target": "MDM2"
+ },
+ {
+  "arm": "non-purified",
+  "target": "RAF"
+ },
+ {
+  "arm": "non-purified",
+  "target": "SOS1"
+ },
+ {
+  "arm": "non-purified",
+  "target": "Thrombin"
+ },
+ {
+  "arm": "non-purified",
+  "target": "TNFa"
+ }
+]

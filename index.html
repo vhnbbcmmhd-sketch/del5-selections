@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEL5 selections</title>
+<style>
+  :root { --ink:#1d2935; --accent:#244e73; --line:#d9e1e8; --soft:#fbfcfd;
+           --muted:#59636d; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink);
+          background:#fff; line-height:1.5; }
+  .wrap { max-width:860px; margin:0 auto; padding:56px 20px 80px; }
+  h1 { font-size:30px; margin:0 0 6px; letter-spacing:-.01em; }
+  .lede { color:var(--muted); font-size:14px; margin:0 0 44px;
+           padding-bottom:22px; border-bottom:1px solid var(--line); }
+  section { margin-bottom:42px; }
+  h2 { font-size:19px; margin:0 0 3px; color:var(--accent); }
+  .sub { color:var(--muted); font-size:12.5px; margin:0 0 16px; }
+  .grid { display:grid; gap:9px;
+           grid-template-columns:repeat(auto-fill,minmax(148px,1fr)); }
+  a.t { display:block; padding:12px 14px; border:1px solid var(--line);
+         border-radius:7px; background:var(--soft); color:var(--ink);
+         text-decoration:none; font-size:14px; font-weight:bold;
+         transition:border-color .12s, background .12s, transform .12s; }
+  a.t:hover { border-color:var(--accent); background:#fff;
+               transform:translateY(-1px); }
+  footer { color:var(--muted); font-size:12px; margin-top:12px;
+            padding-top:20px; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>DEL5 selections</h1>
+    <p class="lede">Interactive 3D fingerprints of the DEL5 selection output.
+      Pick a target to open its plot; click any point in the plot to show that
+      hit&rsquo;s structure and full data.</p>
+    <section>
+      <h2>Purified</h2>
+      <p class="sub">11 targets</p>
+      <nav class="grid">
+        <a class="t" href="purified/beta-catenin.html">Beta-catenin</a>
+        <a class="t" href="purified/il23r.html">IL23R</a>
+        <a class="t" href="purified/keap1.html">KEAP1</a>
+        <a class="t" href="purified/kras-off.html">KRAS-off</a>
+        <a class="t" href="purified/kras-on.html">KRAS-on</a>
+        <a class="t" href="purified/mcl1.html">MCL1</a>
+        <a class="t" href="purified/mdm2.html">MDM2</a>
+        <a class="t" href="purified/raf.html">RAF</a>
+        <a class="t" href="purified/sos1.html">SOS1</a>
+        <a class="t" href="purified/thrombin.html">Thrombin</a>
+        <a class="t" href="purified/tnfa.html">TNFa</a>
+      </nav>
+    </section>
+    <section>
+      <h2>Non-purified</h2>
+      <p class="sub">11 targets</p>
+      <nav class="grid">
+        <a class="t" href="non-purified/beta-catenin.html">Beta-catenin</a>
+        <a class="t" href="non-purified/il23r.html">IL23R</a>
+        <a class="t" href="non-purified/keap1.html">KEAP1</a>
+        <a class="t" href="non-purified/kras-off.html">KRAS-off</a>
+        <a class="t" href="non-purified/kras-on.html">KRAS-on</a>
+        <a class="t" href="non-purified/mcl1.html">MCL1</a>
+        <a class="t" href="non-purified/mdm2.html">MDM2</a>
+        <a class="t" href="non-purified/raf.html">RAF</a>
+        <a class="t" href="non-purified/sos1.html">SOS1</a>
+        <a class="t" href="non-purified/thrombin.html">Thrombin</a>
+        <a class="t" href="non-purified/tnfa.html">TNFa</a>
+      </nav>
+    </section>
+    <footer>Each target page carries its own structure set, about 30&nbsp;MB, so give it a moment to load.</footer>
+  </main>
+</body>
+</html>
